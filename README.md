@@ -1,1 +1,1 @@
-# This a hompage of GGD Music Rcords Label in South Korea.
+# This is an oldschool www homepage of GGD Music Records Label in South Korea.
