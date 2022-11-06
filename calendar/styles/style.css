@@ -1,12 +1,12 @@
 * {box-sizing: border-box;}
 ul {list-style-type: none;}
-body {font-family: "Goudy Bookletter 1911", sans-serif;}
+body {font-family: 'Raleway', sans-serif;}
 
 /* Month header */
 .month {
   padding: 50px 25px;
   width: 100%;
-  background: #FFBF00;
+  background: white;
   text-align: center;
 }
 
@@ -17,8 +17,8 @@ body {font-family: "Goudy Bookletter 1911", sans-serif;}
 }
 
 .month ul li {
-  color: white;
-  font-size: 20px;
+  color: black;
+  font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
@@ -28,20 +28,20 @@ body {font-family: "Goudy Bookletter 1911", sans-serif;}
 .weekdays {
   margin: 0;
   padding: 30px 0;
-  background-color:#F5F6CE;
+  background-color: white;
 }
 
 .weekdays li {
   display: inline-block;
   width: 13.6%;
-  color: #666;
+  color: black;
   text-align: center;
 }
 
 /* Days (1-31) */
 .days {
   padding: 30px 0;
-  background: #F7F8E0;
+  background: white;
   margin: 0;
 }
 
@@ -51,8 +51,8 @@ body {font-family: "Goudy Bookletter 1911", sans-serif;}
   width: 13.6%;
   text-align: center;
   margin-bottom: 30px;
-  font-size:15px;
-  color: #777;
+  font-size:30px;
+  color: black;
 }
 
 /* Highlight the "current" day */
