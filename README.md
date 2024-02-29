@@ -1,1 +1,1 @@
-# This is an oldschool www homepage of GGD cooperative in South Korea.
+# This is a scratchpad for GGD creative department.
