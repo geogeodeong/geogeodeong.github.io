@@ -14,56 +14,6 @@ body {
 	height: 100vh;
 }
 
-.preloader {
-	position: relative;
-	width: 90%;
-	max-width: 512px;
-	height: auto;
-	overflow: hidden;
-}
-
-.preloader img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%
-	height: 100%
-	object-fit: cover;
-	opacity: 0;
-}
-
-.preloader .fill {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 0%;
-	height: 100%;
-	background-color: #fff;
-	animation: fillAnimation 3s linear forwards;
-}
-
-@keyframes fillAnimation {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 100%;
-	}
-}
-
-.preloader .fill:after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-image: url('images/ggd_logo_transparent_small.png');
-	background-size: cover;
-	background-position: center;
-	mix-blend-mode: screen;
-}
-
 html, body {
     display: flex;
     justify-content: center;
