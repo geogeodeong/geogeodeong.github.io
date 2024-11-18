@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 @import url('//cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css');
+@import url(https://cdn.jsdelivr.net/gh/sunghyunzz/eulyoo1945/eulyoo1945.css);
 
 body {
 	font-family: 'SUIT', sans-serif;
@@ -60,7 +61,6 @@ ul {
 li {
 	margin: 0.5rem 0;
 	padding: 0.5rem;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 img {
@@ -103,6 +103,7 @@ img {
 }
 
 #menubar > nav > ul > li > a:hover {
+	font-family: 'Eulyoo1945', serif;
 	color: #1cad41;
 }
 
@@ -131,11 +132,13 @@ img {
 }
 
 #menubar ul li ul li a:hover {
+	font-family: 'Eulyoo1945', serif;
 	color: #1cad41;
 }
 
 /* 하위 메뉴 표시 */
 #menubar ul li:hover > ul {
+	font-family: 'Eulyoo1945', serif;
 	display: block; /* 마우스를 올리면 하위 메뉴 표시 */
 }
 
