@@ -70,6 +70,8 @@ img {
     font-size: 0.8rem;
 	line-height: 1.5rem; /* 텍스트 간격 조정 */
 	width: 100%;
+    max-width: 1200px;
+    height: auto;
 	justify-content: center;
 	align-items: center;
 	background-color: transparent;
@@ -77,15 +79,17 @@ img {
     border-bottom: 1px solid #333;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1000;
 }
 
 #menubar nav ul {
+    width: 100%;
     display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
     list-style: none;
 }
