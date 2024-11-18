@@ -72,7 +72,7 @@ img {
 /* menubar의 기본 설정 */
 #menubar {
 	text-align: center;
-	padding: 0.5rem 1rem; /* 위아래 여백 */
+	padding: 0; /* 위아래 여백 */
 	border-bottom: 2px solid #ccc;
 	display: flex;
 	flex: 1;
